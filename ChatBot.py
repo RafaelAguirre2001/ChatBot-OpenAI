@@ -2,7 +2,7 @@ import tkinter as tk
 import openai
 
 # Agrega tu clave de API de OpenAI aquí
-openai.api_key = "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"
+openai.api_key = "AQUI_TU_API_KEY"
 
 def chatbot_response(prompt):
     completions = openai.Completion.create(
