@@ -2,7 +2,7 @@ import tkinter as tk
 import openai
 
 # Agrega tu clave de API de OpenAI aquí
-openai.api_key = "AQUI_TU_API_KEY"
+openai.api_key = "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"
 
 def chatbot_response(prompt):
     completions = openai.Completion.create(
@@ -21,7 +21,7 @@ def send_message():
     prompt = user_input.get()
     response = chatbot_response(prompt)
     chat_log.config(state=tk.NORMAL)
-    chat_log.insert(tk.END, "Humano: " + prompt + "\n")
+    chat_log.insert(tk.END, "You: " + prompt + "\n")
     chat_log.insert(tk.END, "Bot: " + response + "\n")
     chat_log.config(state=tk.DISABLED)
     user_input.delete(0, tk.END)
