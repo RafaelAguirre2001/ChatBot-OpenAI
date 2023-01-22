@@ -5,3 +5,4 @@
 ### `pip install tkinter`
 ### `pip install openai`
 
+![image](https://user-images.githubusercontent.com/121703302/213934228-bae40b58-03ab-47cf-bfea-9d780d9f5555.png)
